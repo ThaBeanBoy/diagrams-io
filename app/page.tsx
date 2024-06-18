@@ -1,5 +1,11 @@
+'use client';
+
+import Diagram from '@/components/diagram';
+
 export default function Home() {
   return (
-    <main className='flex min-h-screen flex-col items-center justify-between p-24'></main>
+    <main className='min-h-screen h-screen'>
+      <Diagram />
+    </main>
   );
 }
